@@ -7,11 +7,11 @@
                         :resource-load-state 300
                         :ifup-state 350
                         :topo-load-via-cdb-state 400
+                        :topo-load-via-api-state 450
                         :process-crash-relaunch-start-state 2000
-                        :process-crash-count 4000 ; TODO: postfix state
                         }
   )
 
-(def error-log-location "/opt/pg/log/nirvana/plumgrid.error.log")
-(def warn-log-location "/opt/pg/log/nirvana/plumgrid.warn.log")
-(def info-log-location "/opt/pg/log/nirvana/plumgrid.info.log")
+(def error-log-location "/opt/pg/log/plumgrid.error.log")
+(def warn-log-location "/opt/pg/log/plumgrid.warn.log")
+(def info-log-location "/opt/pg/log/plumgrid.info.log")
